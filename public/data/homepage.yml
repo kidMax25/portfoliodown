@@ -1,0 +1,190 @@
+head:
+  title: "Maxwell Simiyu Shiny Developer Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Maxwell Simiyu."
+  subtitle: "Shiny Developer"
+  description: ""
+  image:
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
+  imageMobile:
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Maxwell"
+    URL: "simiyumaxwell27@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/maxwell-simiyu-4797b618a/"
+
+    - icon: "github"
+      URL: "https://github.com/kidMax25"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/maxwellsimiyu22?t=4gJ4B39YyyuMBW_IQ3_4Sg&s=09"
+
+    - icon: "dribbble"
+      URL: "https://dribbble.com"
+
+    - icon: "behance"
+      URL: "https://www.behance.net"
+
+    - icon: "youtube"
+      URL: "https://www.youtube.com"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/kidmax.21?igsh=MzNINGNkZWQ4Mg=="
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com"
+
+    - icon: "codepen"
+      URL: "#"
+
+    - icon: "yelp"
+      URL: "https://www.yelp.com/"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: 
+    <p class="lead">
+    I am a Data Science Shiny Developer, with a unique blend of expertise in data science, statistical analysis, and Shiny applications development. 
+    With an undergraduate degree in pure statistics, my foundation has been mathematics and development of statistical models.
+    My primary focus lies in leveraging the power of Shiny and RStudio to build interactive web applications. 
+    Whether its creating customized dashboards, interactive visualizations, or deploying machine learning models, I can transform raw data into insights just by user-friendly interfaces.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/maxwell-simiyu-4797b618a/"
+  image:
+    x: "img/who-am-i/profile.jpg"
+    _2x: "img/who-am-i/profile.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 5+ years of experience working with Shiny and 1 year practical experience in the field as a Shiny Developer. 
+  I design dynamic webpages (Interface and Server Side) mainly on data science products to help derive patterns on real world scenarios."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/maxwell-simiyu-4797b618a/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "Assistant Data Analyst"
+      company: "Kenya National Highways Authority (KeNHA)"
+      duration: "Jan 2023 - Mar 2024"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of Nairobi"
+      year: "2019-2023"
+      degree: "Bachelor of Sciece in Pure Statistics"
+
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Kenya Road Projects"
+      description: "This app has all the data for all road projects done by KeNHA. Information in this application include Cost/KM, Road Lenght, Original Contract Sum and Total KM."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Road Projects"
+        URL: "https://hqoz9u-maxwell-simiyu.shinyapps.io/RoadProjects/"
+      image:
+        x: "img/works/Roads.png"
+        _2x: ""
+      is_even: true
+
+    - title: "Crime Analysis in Nairobi"
+      description: "This is a Time Series Analysis Application showing Patterns and Prediction in Crime in Nairobi"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://hqoz9u-maxwell-simiyu.shinyapps.io/CrimeDB/"
+      image:
+        x: "img/works/Crime-Prediction.png"
+        _2x: ""
+      is_even: false
+
+    
+
+
+# contact
+contact:
+  enable: true
+  title: "Contact Maxwell"
+    
+  image:
+    x: "img/who-am-i/myImage.jpg"
+   _2x: "img/who-am-i/myImage.jpg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:simiyumaxwell27@gmail.com'
+    
+  phone:
+    title: "Phone Number"
+    number: "--"
+  email:
+    title: "Email"
+    email: '<a href="mailto:simiyumaxwell27@gmail.com">simiyumaxwell27@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "--"
+  
+
